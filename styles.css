@@ -1,0 +1,266 @@
+
+.contener-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.product-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 5px #F7F8FD;
+    border-radius: 20px;
+    padding: 0px 20px 0px 0px;
+    margin-left: 10px;
+}
+
+.card-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #6441FD;
+    height: 340px;
+    width: 240px;
+    border-radius: 20px;
+    box-shadow: #6441FD;
+}
+
+.result-1{
+    color: #C9BBFF;
+}
+
+.heading-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #4A24CF;
+    color: white;
+    margin: none;
+}
+
+.fornt-1{
+    display: flex;
+    font-size: 40px;
+    margin: 0px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.paragraph-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    font-size: 13px;
+    color: #C9BBFF;
+}
+
+.great-1{
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0px;
+}
+
+.heading-2{
+    color: #C9BBFF;
+    padding: 0px 25px 0px 25px ;
+    font-size: 13px;
+    text-align: center;   
+}
+
+.card-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0px 0px 20px;
+    height: 320px;
+}
+
+.bar-1{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 20px;
+    background-color: #FFF6F5;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 0px 5px 0px;
+}
+
+.Reaction-1{
+    color: #DB6B6A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gap-1{
+    padding-left: 10px;
+}
+
+.marks-1{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.bar-marks-1{
+    color: #A5A1AB;
+    padding-left: 10px;
+}
+
+.bar-2{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 20px;
+    background-color: #FFFBF2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+.Memory-1{
+    color: #DEB363;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bar-3{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 20px;
+    background-color: #F2FBFA;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+.verbal-1{
+    color: #45AD94;
+    display: flex;
+    align-items: center;
+}
+
+.bar-4{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 20px;
+    background-color: #F3F3FD;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+.Visual-1{
+    color: #242997;
+    display: flex;
+    align-items: center;
+}
+
+.card-2-button{
+    background-color: #4434EF;
+    color: white;
+    border:  none;
+    padding: 10px 83px 10px 83px;
+    border-radius: 50px;
+    margin: 20px 0px 10px 0px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 915px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .contener-1{
+        display: block;
+        width: 100%;  
+        padding: 0%;
+        margin: 0px;
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+
+    .result-1{
+        color: #C9BBFF;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .product-1 {
+        display: block;
+        box-shadow:none;
+        flex-direction: column;
+        align-items: center;
+        padding: none;
+        margin: 0px;
+        padding-right: 0%;
+        width: 100
+    }
+
+    .card-1{
+        padding: 0px 0px 0px 0px ;
+        width: 312px;
+        border-radius: 0px 0px 20px 20px;    
+        width: 100%
+    }
+
+    .great-1{
+        padding: 8px 0px 8px 0px;
+    }
+
+    .heading-2{
+        padding:0px 35px 0px 35px ;
+        font-size: 17px;
+    }
+
+    .card-2{
+        margin: none;
+        width: 100%
+    }
+
+    .summary-1{
+        margin: 30px 0px 20px 10px;
+    }
+
+    .bar-1{
+        min-width: 295px;
+        margin: 0px 0px 20px 10px;
+    }
+
+    .bar-2{
+        min-width: 295px;
+        margin: 5px 0px 20px 10px;
+    }
+
+    .bar-3{
+        min-width: 295px;
+        margin: 5px 0px 20px 10px;
+    }
+
+    .bar-4{
+        min-width: 295px;
+        margin: 5px 0px 20px 10px;
+    }
+
+    .card-2-button{
+
+        min-width: 265px;
+        margin: 5px 45px 0px 10px;
+        padding: 13px 112px 13px 112px;
+    }
+
+}
